@@ -34,5 +34,15 @@
     └── Quit                          ✔ exit bash
 
 
+### How it Work
+
+``` bash
+
+chmod +x lara.sh
+
+./lara.sh
+
+```
+
 ## Contributing
 - ⚙ Send us a PR, github issue, or email at app_eg@mail.com
