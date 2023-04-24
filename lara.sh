@@ -54,7 +54,7 @@ echo -e "- clear log  \t\t \e[1;42m OK \e[0m"
 function setupMail()
 {
     
-if [[ ! $(which maildev) && $(maildev --version ) ]]; then
+if [[ ! $(which maildev) ]]; then
 
 npm i maildev -g
 maildev
@@ -115,7 +115,7 @@ function BackupMysql(){
 
 #check mysql connection
 
-if [[ ! $(which mysql) && $(mysql --version) ]]; then
+if [[ ! $(which mysql)  ]]; then
  checkError "Mysql not Install"
 fi
 
@@ -173,7 +173,7 @@ read -p  "Enter Domain Name ex (localhost , appsite.test):  ? " domain
 [ ! -z "$domain" ] || checkError "Invalid domain"
 
 #check openssl
-if [[ ! $(which openssl) && $(openssl version) ]]; then
+if [[ ! $(which openssl) ]]; then
  checkError "openssl not Install,apt-get install openssl -y"
 fi
 
@@ -280,7 +280,7 @@ read -p  "Enter Version Number [6,7,8,9,10]  :  ? " ver
 
 [ ! -z "$ver" ] || checkError "Invalid Laravel Version"
 
-if [[ ! $(which composer) && $(composer --version ) ]]; then
+if [[ ! $(which composer)  ]]; then
 
 updateSys
 sudo apt install php-cli unzip
