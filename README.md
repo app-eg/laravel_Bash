@@ -10,6 +10,8 @@
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
 ![Debian](https://img.shields.io/badge/Debian-A81D33?style=for-the-badge&logo=debian&logoColor=white)
 ![laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+<a href="https://github.com/app-eg/laravel_Bash/releases/latest">
+<img alt="GitHub release (release name instead of tag name)" src="https://img.shields.io/github/v/release/app-eg/laravel_Bash?include_prereleases&label=LATEST%20RELEASE&style=for-the-badge"></a>
 
 ---
 
