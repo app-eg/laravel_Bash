@@ -68,6 +68,8 @@ checkError
 
 function grantPermission(){
    
+sudo chown -R $USER:www-data storage
+sudo chown -R $USER:www-data bootstrap/cache
 
 sudo chmod -R ug+rwx  bootstrap/cache >/dev/null 2>&1
 checkError
